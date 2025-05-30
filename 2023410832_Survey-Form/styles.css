@@ -1,0 +1,64 @@
+#title{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 15px;
+} 
+
+#description{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px
+}
+
+body{
+  background-color: violet;
+}
+
+#survey-form{
+ background-color: #dac6ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px purple;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+input[type="text"], input[type="email"], input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #8f9ff9;
+  border: px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #5367d5;
+}
